@@ -1,7 +1,7 @@
 import { Persona } from "./Persona";
 
 export class Masajista extends Persona {
-    protected masaje:boolean;
+    protected masaje:boolean; 
         
     constructor (pNombre:string, pApellido:string,pMasaje:boolean){
     super (pNombre,pApellido);
