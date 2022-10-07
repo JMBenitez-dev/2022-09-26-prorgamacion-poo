@@ -20,7 +20,7 @@ export class Entrenador extends Persona{
         public setNacionalidad(nacionalidad : string):void{
             this.nacionalidad=nacionalidad;
         }
-        public SetEdad (pEdad : number):void{
+        public setEdad (pEdad : number):void{
             this.edad = pEdad;
         }
 }
